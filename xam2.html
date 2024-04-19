@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+
+    <script>
+        /* function greeting(callbackFun,salutation,firstName,lastName)
+        {
+            
+             let callBack=callbackFun(firstName,lastName)
+             return `${salutation},${callBack}`
+        }
+        function callbackFun(firstName,lastName)
+        {
+            return `${firstName} ${lastName}`
+        }
+        console.log(greeting(callbackFun,"Good morning",'Megha','Krishna')) */
+
+
+
+        //arrow function
+        /* let rectangle = (length,breadth) =>
+        {
+            return length*breadth
+        }
+        console.log(rectangle(10,8)) */
+
+
+        //anonymous Function
+        /* let square = function(area)
+        {
+            return area * area
+        }
+        console.log(square(4))
+     */
+
+
+
+
+     //closure function
+     /* function outerFun()
+     {
+        function innerFun()
+        {
+            return "This is inner function"
+        }
+        console.log (innerFun())
+
+        return "This is outer function"
+        
+     }
+    console.log (outerFun())
+ */
+
+    /* function rectangle(l,b)
+    {
+        function square(a)
+        {
+            return `Area of Square: ${a * a} `
+        }
+        console.log(square(4))
+        return `Area of Rectangle: ${l * b}`
+    }
+    console.log(rectangle(20,10)) */
+
+
+    //Template literals
+    /* let fruits =[ 'kiwi','banana','pineapple']
+    console.log(`Available Fruits Are:${fruits}`) */
+
+
+    //destructing
+    /* const nums=[1,2,3]
+    let [one,two,three]= nums
+    console.log(one,two,three) */
+
+
+    /* const obj={
+        name:'Niha',
+        age:'22',
+        country:'india'
+    }
+    let {name,age,country}=obj
+    console.log(name,age,country)
+         */
+
+
+         /* const nums=[1,2,3]
+         for(var i=0;i<nums.length;i++)
+         {
+            try
+            {if(nums[i]===3)
+            {
+                throw new Error("3 Occured")
+            }}
+            catch(err){
+                console.log("error occured:",err.message)
+            }
+         }
+ */
+
+
+ //try catch block
+ let a=10
+ let b=20
+ try{
+    let c=a+b
+ }
+ catch(error)
+ {
+    console.log(error)
+ }
+ finally{
+    console.log("This is finally block")
+ }
+    </script>
+</body>
+</html>
